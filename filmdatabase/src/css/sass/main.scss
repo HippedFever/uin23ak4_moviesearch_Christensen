@@ -1,1 +1,43 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+
+header {
+    align-content: center;
+    width: 100%;
+    max-width: 1200px;
+    border: 2px solid black;
+    margin-top: 1rem;
+}
+
+.maintitle {
+    text-align: center;
+    font-size: xx-large;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    margin:auto;
+    width: 100%;
+    max-width: 1200px;
+}
+
+.movie-card{
+    border: 3px solid black;
+    max-width: 90%;
+    margin: auto;
+    margin-top: 1rem;
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.posterIMG{
+    position:relative;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    margin-left: 1rem;
+    display: flex;
+
+}
+
+aside{
+    padding-left: 1rem;
+}
