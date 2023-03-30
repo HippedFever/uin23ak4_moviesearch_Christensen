@@ -1,32 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
 
+$hvitbak: #ffffff;
+$lysgråbak: #b3b3b3;
 
 header {
     align-content: center;
+    text-align: center;
     width: 100%;
     max-width: 1200px;
-    border: 2px solid black;
+    border: 3px solid black;
     margin-top: 1rem;
+    border-radius: 10px;
+    background-color: $hvitbak;
 }
 
 .maintitle {
     text-align: center;
     font-size: xx-large;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Oswald', sans-serif;
 }
 
 body {
     margin:auto;
     width: 100%;
     max-width: 1200px;
+    background-color: $lysgråbak;
 }
 
 .movie-card{
     border: 3px solid black;
+    border-radius: 10px;
     max-width: 90%;
     margin: auto;
     margin-top: 1rem;
     display: flex;
     flex-wrap: nowrap;
+    background-color: $hvitbak;
 }
 
 .posterIMG{
@@ -34,10 +43,62 @@ body {
     margin-top: 1rem;
     margin-bottom: 1rem;
     margin-left: 1rem;
+    margin-right: 1rem;
     display: flex;
-
+    max-height: 500px;
+    max-width: 300px;
+    width: 300px;
+    height: 500px;
 }
 
 aside{
     padding-left: 1rem;
+    padding-bottom: 1rem;
+    padding-right: 1rem;
+}
+
+form{
+    margin:auto;
+    max-width: 100%;
+    padding-left: 1rem;
+    padding-bottom: 1rem;
+    display: inline-block;
+}
+
+.myButton {
+	background:linear-gradient(to bottom, #3d94f6 5%, #1e62d0 100%);
+	background-color:#3d94f6;
+	border-radius:6px;
+	border:1px solid #337fed;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:20px;
+	font-weight:bold;
+	padding:8px 43px;
+    margin-top: 1rem;
+	text-decoration:none;
+    font-family: 'Oswald', sans-serif;
+}
+.myButton:hover {
+	background:linear-gradient(to bottom, #1e62d0 5%, #3d94f6 100%);
+	background-color:#1e62d0;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+input{
+    width: 100%;
+}
+
+h3{
+    font-size: x-large;
+    font-family: 'Oswald', sans-serif;
+}
+
+strong{
+    font-family: 'Oswald', sans-serif;
 }
